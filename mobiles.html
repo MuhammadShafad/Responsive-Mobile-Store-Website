@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mobile Store Website</title>
+
+        <link rel="stylesheet" href="mobiles.css">
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/34a294b7be.js"
+            crossorigin="anonymous"></script>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bokor&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <div class="mob-main">
+            <!--Navbar-->
+            <div class="header">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"
+                            id="nav-head">phone<span>Fusion</span></a>
+                        <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse"
+                            id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="./index.html">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./shop.html">SHOP</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active"
+                                        href="#"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false"
+                                        aria-current="page">
+                                        COLLECTIONS
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item"
+                                                href="./accessories.html">Accessories</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="./headset.html">Headset</a></li>
+                                        <!-- <li><hr class="dropdown-divider"></li> -->
+                                        <li><a class="dropdown-item"
+                                                href="./laptop.html">Laptops &
+                                                computers</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="./mobiles.html">Mobile</a></li>
+                                        <!-- <li><a class="dropdown-item" href="#">Laptops & computers</a></li> -->
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./about.html">ABOUT US</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link"
+                                        href="./buynow.html">BUY NOW</a></li>
+                                <li class="nav-item"><a class="nav-link"
+                                        href="./contact.html">CONTACT US</a></li>
+                            </ul>
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item"><a class="nav-link"
+                                        href="./login.html">LOGIN</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fas fa-search"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fas fa-heart"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!--Mobiles Section-->
+            <div class="container mt-5 ">
+                <nav class="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active"
+                            aria-current="page">Mobiles</li>
+                    </ol>
+                </nav>
+                <h1 class="text-center my-4">Mobiles</h1>
+                <div class="sort-section">
+                    <div>
+                        <label for="sort">Sort by:</label>
+                        <select id="sort">
+                            <option value="featured">Featured</option>
+                            <option value="featured">Best selling</option>
+                            <option value="featured">Alphabetically,
+                                A-Z</option>
+                            <option value="featured">Alphabetically,
+                                Z-A</option>
+                            <option value="featured">Price, low to high</option>
+                            <option value="featured">Price, high to low</option>
+                            <option value="featured">Date, old to new</option>
+                            <option value="featured">Date, new to old</option>
+                        </select>
+                    </div>
+                    <span>14 products</span>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-card">
+                            <!-- <div class="new-badge">New</div> -->
+                            <img
+                                src="./images/iphone13.jpg"
+                                alt="Apple iPhone 13 (128GB) - Midnight">
+                            <h5>Apple iPhone 13 (128GB) - Midnight</h5>
+                            <div class="price">₹45,490</div>
+                            <a href="./buynow.html">
+                                <button class="add-to-cart">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-card">
+                            <!-- <div class="new-badge">New</div> -->
+                            <img
+                                src="./images/samsung.jpg"
+                                alt="Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage)">
+                            <h5>Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage)</h5>
+                            <div class="price">₹7,999</div>
+                            <a href="./buynow.html">
+                                <button class="add-to-cart">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-card">
+                            <!-- <div class="new-badge">New</div> -->
+                            <!-- <div class="out-of-stock">Out of stock</div> -->
+                            <img
+                                src="./images/61BgEfmZC8L._AC_UL320_.jpg"
+                                alt="Samsung Galaxy Z Fold6 5G AI Smartphone">
+                            <h5>Samsung Galaxy Z Fold6 5G AI Smartphone</h5>
+                            <div class="price">₹2,00,999</div>
+                            <a href="./buynow.html">
+                                <button class="add-to-cart">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-card">
+                            <!-- <div class="new-badge">New</div> -->
+                            <!-- <div class="out-of-stock">Out of stock</div> -->
+                            <img
+                                src="./images/71C8O0yT7hL._AC_UL320_.jpg"
+                                alt="Redmi Note 13 Pro+ (Fusion White, 12GB RAM, 256GB Storage)">
+                            <h5>Redmi Note 13 Pro+ (Fusion White, 12GB RAM, 256GB Storage)</h5>
+                            <div class="price">₹29,489</div>
+                            <a href="./buynow.html">
+                                <button class="add-to-cart">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-card">
+                            <!-- <div class="new-badge">New</div> -->
+                            <img
+                                src="./images/91AnvgyG1sL._AC_UL320_.jpg"
+                                alt="OPPO F27 Pro+ 5G (Dusk Pink, 8GB RAM, 256GB Storage)">
+                            <h5>OPPO F27 Pro+ 5G (Dusk Pink, 8GB RAM, 256GB Storage)</h5>
+                            <div class="price">₹29,999</div>
+                            <a href="./buynow.html">
+                                <button class="add-to-cart">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-card">
+                            <!-- <div class="new-badge">New</div> -->
+                            <img
+                                src="./images/613SAOPmLeL._AC_UL320_one.jpg"
+                                alt="OnePlus 11R 5G (Galactic Silver, 8GB RAM, 128GB Storage)">
+                            <h5>OnePlus 11R 5G (Galactic Silver, 8GB RAM, 128GB Storage)</h5>
+                            <div class="price">₹28,999</div>
+                            <a href="./buynow.html">
+                                <button class="add-to-cart">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-card">
+                            <!-- <div class="new-badge">New</div> -->
+                            <!-- <div class="out-of-stock">Out of stock</div> -->
+                            <img
+                                src="./images/51yFjb2Jf9L._AC_UL320_.jpg"
+                                alt="Vivo V30 5G Smartphone (Classic Black, 8GB RAM, 256GB Storage)">
+                            <h5>Vivo V30 5G Smartphone (Classic Black, 8GB RAM, 256GB Storage)</h5>
+                            <div class="price">₹28,599</div>
+                            <a href="./buynow.html">
+                                <button class="add-to-cart">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-card">
+                            <!-- <div class="new-badge">New</div> -->
+                            <!-- <div class="out-of-stock">Out of stock</div> -->
+                            <img
+                                src="./images/81KATgJ3ZHL._AC_UY218_.jpg"
+                                alt="itel P55 5G | 4GB RAM+64GB ROM">
+                            <h5>itel P55 5G | 4GB RAM+64GB ROM</h5>
+                            <div class="price">₹8,499</div>
+                            <a href="./buynow.html">
+                                <button class="add-to-cart">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-card">
+                            <!-- <div class="new-badge">New</div> -->
+                            <img
+                                src="./images/61oycK5i7qL._AC_UY218_nothing.jpg"
+                                alt="Nothing Phone (2a) 5G (Black, 8GB RAM, 128GB Storage)">
+                            <h5>Nothing Phone (2a) 5G (Black, 8GB RAM, 128GB Storage)</h5>
+                            <div class="price">₹25,999</div>
+                            <a href="./buynow.html">
+                                <button class="add-to-cart">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-card">
+                            <!-- <div class="new-badge">New</div> -->
+                            <img
+                                src="./images/81rP6DJw3bL._AC_UY218_real.jpg"
+                                alt="realme P1 Speed 5G (Brushed Blue, 256 GB) (12 GB RAM)">
+                            <h5>realme P1 Speed 5G (Brushed Blue, 256 GB) (12 GB RAM)</h5>
+                            <div class="price">₹20,220</div>
+                            <a href="./buynow.html">
+                                <button class="add-to-cart">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-card">
+                            <!-- <div class="new-badge">New</div> -->
+                            <!-- <div class="out-of-stock">Out of stock</div> -->
+                            <img
+                                src="./images/poco.jpg"
+                                alt="POCO M6 5G (Galactic Black, 4GB RAM, 64GB Storage)">
+                            <h5>POCO M6 5G (Galactic Black, 4GB RAM, 64GB Storage)</h5>
+                            <div class="price">₹7,998</div>
+                            <a href="./buynow.html">
+                                <button class="add-to-cart">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-card">
+                            <!-- <div class="new-badge">New</div> -->
+                            <!-- <div class="out-of-stock">Out of stock</div> -->
+                            <img
+                                src="./images/motorola.jpg"
+                                alt="Motorola G64 5G (Red Berry, 12GB RAM, 256GB Storage)">
+                            <h5>Motorola G64 5G (Red Berry, 12GB RAM, 256GB Storage)</h5>
+                            <div class="price">₹17,608</div>
+                            <a href="./buynow.html">
+                                <button class="add-to-cart">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-card">
+                            <!-- <div class="new-badge">New</div> -->
+                            <img
+                                src="./images/71qMNzaUlcL._AC_UY218_oppo.jpg"
+                                alt="OPPO F27 5G (Emerald Green, 8GB RAM, 256GB Storage)">
+                            <h5>OPPO F27 5G (Emerald Green, 8GB RAM, 256GB Storage)</h5>
+                            <div class="price">₹20,599</div>
+                            <a href="./buynow.html">
+                                <button class="add-to-cart">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-card">
+                            <!-- <div class="new-badge">New</div> -->
+                            <img
+                                src="./images/51TOrXHNuIL._AC_UY218_lava.jpg"
+                                alt="Lava O3 (Glossy Black, 4 GB RAM, 64 GB Storage)">
+                            <h5>Lava O3 (Glossy Black, 4 GB RAM, 64 GB Storage)</h5>
+                            <div class="price">₹20,220</div>
+                            <a href="./buynow.html">
+                                <button class="add-to-cart">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Newsletter Section -->
+            <div class="newsletter mt-5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!-- Left Text Section -->
+                        <div class="col-md-8 text-md-start text-center">
+                            <h2>Get our latest news and special sales</h2>
+                            <p>You may unsubscribe at any moment. For that
+                                purpose, please find our contact info in the
+                                legal notice.</p>
+                        </div>
+                        <!-- Right Input Section -->
+                        <div class="col-md-4">
+                            <div
+                                class="d-flex justify-content-md-end justify-content-center mt-3 mt-md-0">
+                                <input type="email" class="form-control me-2"
+                                    placeholder="Enter your email" required>
+                                <button class="btn btn-primary">Get</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Section -->
+            <div class="footer-section">
+                <div class="container">
+                    <div class="row text-white">
+                        <!-- Column 1 -->
+                        <div class="col-md-3 col-6">
+                            <h5>Your Account</h5>
+                            <a href="#">Personal info</a>
+                            <a href="#">Orders</a>
+                            <a href="#">Credit slips</a>
+                            <a href="#">Addresses</a>
+                        </div>
+                        <!-- Column 2 -->
+                        <div class="col-md-3 col-6">
+                            <h5>Customer Service</h5>
+                            <p>Monday to Saturday</p>
+                            <p>9am - 5pm</p>
+                            <p>9074505209</p>
+                            <p>phonefusion54@gmail.com</p>
+                        </div>
+                        <!-- Column 3 -->
+                        <div class="col-md-3 col-6">
+                            <h5>Our Guarantees</h5>
+                            <a href="#">Shipping in 3 days</a>
+                            <a href="#">Free returns within 14 days</a>
+                            <a href="#">Secure payments</a>
+                        </div>
+                        <!-- Column 4 -->
+                        <div class="col-md-3 col-6">
+                            <h5>Our Company</h5>
+                            <a href="./buynow.html">Delivery</a>
+                            <a href="#">Legal Notice</a>
+                            <a href="./about.html">About Us</a>
+                            <a href="./contact.html">Contact Us</a>
+                            <a href="#">Terms and conditions of use</a>
+                        </div>
+                    </div>
+                    <!-- Footer Bottom -->
+                    <div class="footer-bottom mt-3 d-flex">
+                        © 2024. Designed by Muhammad Shafad K.K
+                        <div class="social-icons mt-2 d-flex ms-auto">
+                            <a href="#"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Bootstrap Bundle JS with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fx2OmkJ4EV+m4Z9ZkoxxAy/h5nmE2/5StBUPj7LL5z0wK93PHYoXlGU02qtAdzbg"
+            crossorigin="anonymous"></script>
+
+    </body>
+</html>

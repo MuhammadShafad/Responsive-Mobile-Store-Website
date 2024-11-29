@@ -1,0 +1,328 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 10px 0;
+}
+#nav-head{
+    font-size: 25px;
+}
+
+#nav-head span{
+    color: #007bff;
+    font-size: 28px;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+.navbar-nav .badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 0.75rem;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    .navbar-nav.ml-auto {
+        margin-top: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
+}
+
+
+/*Home Section*/
+
+.hero-section {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-section h2{
+    font-size: 20px;
+    color: #007bff;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.hero-section p {
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+#homeshop-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#homeshop-btn:hover {
+    background-color: #3a56c8;
+}
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.price-section {
+    font-size: 28px;
+    font-weight: bold;
+}
+#homep1{
+    font-size: 26px;
+}
+
+/* .price-section div{
+    background-color: #007bff;
+    width: 130px;
+    height: 3px;
+    margin-left: 100px;
+} */
+
+#homep2{
+    font-size: 45px;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 30px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 24px;
+    }
+
+    .price-section {
+        font-size: 22px;
+    }
+}
+
+/*Section*/
+.card {
+    /* border: none;
+    border-radius: 10px; 
+    text-align: center; */
+    padding: 20px;
+    background-color: #f8f9fa;
+    transition: transform 0.3s ease-in-out;
+  }
+  #card1{
+    background-image: url("./images/banner_2_590x700_crop_center.progressive.png.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border: none;
+
+  }
+
+  #card2{
+    background-image: url("./images/cpu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border: none;
+
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card h3 {
+    color: #3b3b3b;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .card p {
+    color: #6c757d;
+  }
+  #secbtn{
+    width: 50px;
+  }
+
+  .big-sale {
+    background-color: #4a69bd;
+    color: white;
+    /* border-radius: 10px; */
+    text-align: center;
+    padding: 30px 20px;
+    background-image: url("./images/best-phones-zdnet-thumb-image.webp");
+    height: 500px;
+    background-size: cover;
+  }
+  
+
+  .big-sale h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .big-sale p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+
+  .big-sale .btn {
+    background-color: #e55039;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .big-sale .btn:hover {
+    background-color: #c0392b;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/*Footer Section*/
+.newsletter {
+    background-color: #dbeeff;
+    padding: 30px 20px;
+  }
+
+  .newsletter h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .newsletter p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  .footer-section {
+    background-color: #23272a;
+    color: #fff;
+    padding: 40px 20px;
+  }
+
+  .footer-section h5 {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .footer-section a {
+    color: #b1b1b1;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .footer-section a:hover {
+    color: #fff;
+  }
+
+  .footer-section p{
+      color: #b1b1b1;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    font-size: 0.8rem;
+  }
+
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+
+  .social-icons a:hover {
+    color: #dbeeff;
+  }
+
+  .payment-icons img {
+    max-width: 40px;
+    margin: 0 5px;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 576px) {
+    .footer-section {
+      text-align: center;
+    }
+
+    .footer-section .row > div {
+      margin-bottom: 20px;
+    }
+  }
+
+
+  #carouselExampleIndicators {
+    margin: 0 20px; /* Adds space on the left and right */
+  }
+
+  /* Ensure control icons are visible */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background for better visibility */
+    border-radius: 50%; /* Makes the icons circular */
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    z-index: 5; /* Ensures the buttons are above all other content */
+  }
+
+  #ccard img{
+    height: 250px;
+  }
